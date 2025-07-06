@@ -3,13 +3,13 @@ import { getFirestore, doc, setDoc, getDoc, collection, query, where, getDocs } 
 
 // Firebase configuration
 const firebaseConfig = {
-  apiKey: process.env.FIREBASE_API_KEY,
-  authDomain: process.env.FIREBASE_AUTH_DOMAIN,
-  projectId: process.env.FIREBASE_PROJECT_ID,
-  storageBucket: process.env.FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: process.env.FIREBASE_MESSAGING_SENDER_ID,
-  appId: process.env.FIREBASE_APP_ID,
-}
+  apiKey: "AIzaSyDl4a8Qa6Y2de8Blvj7ScSthWtgx96_OkA",
+  authDomain: "goku11-caea2.firebaseapp.com",
+  projectId: "goku11-caea2",
+  storageBucket: "goku11-caea2.firebasestorage.app",
+  messagingSenderId: "53628763637",
+  appId: "1:53628763637:web:61fdc2069486fd8efbf4bc",
+};
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig)
